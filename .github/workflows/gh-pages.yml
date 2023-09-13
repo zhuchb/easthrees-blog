@@ -7,8 +7,6 @@ on:
   pull_request:
 
 jobs:
-  permissions:
-     contents: write
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
